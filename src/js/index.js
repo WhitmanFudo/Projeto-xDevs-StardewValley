@@ -53,6 +53,6 @@ btnFundo.addEventListener('click', () => {
   if (clickCount === 1) {
     clickCount = 0;
     fundoAtual = (fundoAtual + 1) % backgrounds.length;
-    body.style.backgroundImage = `url('../src/imagens/${backgrounds[fundoAtual]}')`;
+    body.style.backgroundImage = `url('src/imagens/${backgrounds[fundoAtual]}')`;
   }
 });
