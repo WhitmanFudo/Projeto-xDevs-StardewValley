@@ -1,0 +1,238 @@
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    background-image: url("../imagens/fundo-base-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.cabecalho img {
+    width: 400px;
+}
+
+.personagens-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.lista-personagens {
+    width: 330px;
+    height: 520px;
+    position: relative;
+}
+
+.btn-seta {
+    background-color: #90fc9e;
+    width: 0px;
+    height: 0px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-seta:hover {
+    background-color: #178d07;
+    transform: scale(0.9) rotateY(180deg);
+}
+
+.cartao {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: opacity 0.3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartao.selecionado {
+    opacity: 1;
+    z-index: 1;
+}
+
+.cartao .imagem-personagem {
+    width: 80%;
+    max-height: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cartao .nome {
+    background-color: #b4b4b480;
+    padding: 8px 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0px 5px;
+}
+
+.cartao .descricao {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+}
+
+.cartao .descricao .titulo {
+    background-color: #4e2c0c;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 6px;
+}
+
+.cartao .descricao .texto {
+    font-size: 14px;
+    padding: 8px;
+    text-align: justify;
+    height: 130px;
+    overflow-y: auto;
+    margin-bottom: 3px;
+}
+
+.cartao.fundo-1 {
+    background: url('../imagens/fundo-1.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-2 {
+    background: url('../imagens/fundo-2.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-3 {
+    background: url('../imagens/fundo-3.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-4 {
+    background: url('../imagens/fundo-4.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-5 {
+    background: url('../imagens/fundo-5.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-6 {
+    background: url('../imagens/fundo-6.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-7 {
+    background: url('../imagens/fundo-7.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-8 {
+    background: url('../imagens/fundo-8.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-9 {
+    background: url('../imagens/fundo-9.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-10 {
+    background: url('../imagens/fundo-10.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-11 {
+    background: url('../imagens/fundo-11.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-12 {
+    background: url('../imagens/fundo-12.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-13 {
+    background: url('../imagens/fundo-13.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-14 {
+    background: url('../imagens/fundo-14.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-15 {
+    background: url('../imagens/fundo-15.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-16 {
+    background: url('../imagens/fundo-16.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-17 {
+    background: url('../imagens/fundo-17.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-18 {
+    background: url('../imagens/fundo-18.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-19 {
+    background: url('../imagens/fundo-19.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.cartao.fundo-20 {
+    background: url('../imagens/fundo-20.png') no-repeat;
+    background-position: center;
+	background-size: cover;
+}
+
+.btn-fundo {
+    transform: scale(0.2) translate(0px, -50px);
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    cursor: pointer;
+}
