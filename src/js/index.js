@@ -40,7 +40,7 @@ function esconderCartaoSelecionado() {
     cartaoSelecionado.classList.remove("selecionado");
 }
 
-// Função para mudar o fundo a cada 3 cliques
+// Função para mudar o fundo a cada clique
 let clickCount = 0;
 const backgrounds = ['fundo-base-1.png', 'fundo-base-2.png', 'fundo-base-3.png', 'fundo-base-4.png', 'fundo-base-5.png'];
 let fundoAtual = 0;
